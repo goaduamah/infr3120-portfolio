@@ -1,0 +1,32 @@
+/* Tablet viewport: 601px–1024px. Two-column content reduces excessive vertical scrolling. */
+.container, .header-inner { width: 86%; }
+.header-inner { padding: 1rem 0; }
+.nav-list a { padding: .5rem .7rem; }
+.hero { padding-top: 4.2rem; padding-bottom: 4rem; }
+.hero-decoration { display: block; position: absolute; width: 240px; height: 240px; right: -35px; top: 110px; opacity: .85; }
+.orbit { position: absolute; border: 1px solid #2d5b8b; border-radius: 50%; transform: rotate(-28deg); }
+.orbit-one { width: 220px; height: 110px; top: 55px; left: 10px; }
+.orbit-two { width: 190px; height: 190px; top: 15px; left: 25px; }
+.orbit-core { position: absolute; top: 80px; left: 90px; width: 70px; height: 70px; line-height: 70px; text-align: center; font-size: 2rem; font-weight: 800; border-radius: 20px; background: linear-gradient(135deg, #2563eb, #22d3ee); color: #07101c; }
+.orbit-core span { color: white; }
+.float-tag { position: absolute; padding: .25rem .5rem; border: 1px solid #2d5b8b; background: #101c2d; border-radius: 6px; font-size: .65rem; }
+.tag-one { top: 10px; left: 35px; }
+.tag-two { top: 175px; left: 10px; }
+.tag-three { top: 120px; right: -5px; }
+.section-heading { }
+.section-intro { max-width: 620px; }
+.feature-grid { font-size: 0; }
+.feature-card { display: inline-block; vertical-align: top; width: 48%; margin-right: 2%; min-height: 235px; font-size: 16px; }
+.feature-card:nth-child(2n) { margin-right: 0; }
+.about-layout { font-size: 0; }
+.profile-frame, .about-copy { display: inline-block; vertical-align: top; font-size: 16px; }
+.profile-frame { width: 38%; margin-right: 5%; }
+.about-copy { width: 57%; }
+.project-grid { font-size: 0; }
+.project-card { display: inline-block; vertical-align: top; width: 48%; margin-right: 2%; min-height: 285px; font-size: 16px; }
+.project-card:nth-child(2n) { margin-right: 0; }
+.contact-layout { font-size: 0; }
+.contact-aside, .contact-form { display: inline-block; vertical-align: top; font-size: 16px; }
+.contact-aside { width: 38%; margin-right: 4%; }
+.contact-form { width: 58%; }
+.closing-cta { }

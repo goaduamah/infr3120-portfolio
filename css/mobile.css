@@ -1,0 +1,25 @@
+/* Mobile viewport: up to 600px. One-column layout keeps content readable on phones. */
+.container, .header-inner { width: 90%; }
+.header-inner { padding: .8rem 0; }
+.brand { font-size: .9rem; }
+.brand-mark { width: 30px; height: 30px; line-height: 30px; }
+nav { margin-top: .5rem; }
+.nav-list li { margin-right: 0; }
+.nav-list a { padding: .45rem .55rem; font-size: .82rem; }
+.hero { padding-top: 3.4rem; padding-bottom: 3.2rem; }
+h1 { font-size: clamp(2.5rem, 12vw, 3.8rem); }
+.hero-copy { font-size: 1rem; }
+.button-row .button { margin: 0 .3rem .6rem 0; }
+.hero-meta { margin-top: 2rem; }
+.hero-meta div { display: block; margin-bottom: .8rem; }
+.section { padding: 3rem 0; }
+.section-heading { margin-bottom: 1.5rem; }
+.feature-card, .project-card { padding: 1.2rem; }
+.page-main { padding-top: 2.5rem; padding-bottom: 3.5rem; }
+.page-heading { margin-bottom: 2rem; }
+.page-heading h1 { font-size: clamp(2.35rem, 10vw, 3.4rem); }
+.profile-frame { margin-bottom: 1.5rem; }
+.about-copy h2 { font-size: 1.7rem; }
+.contact-form { padding: 1.1rem; }
+.closing-cta { padding-top: 2.5rem; padding-bottom: 2.5rem; }
+.footer-inner p { overflow-wrap: anywhere; }

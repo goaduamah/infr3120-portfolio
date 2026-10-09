@@ -1,0 +1,1 @@
+Record a 45–60 second introduction and save/export it as intro.mp4 in this folder. Remove this note if you want. Test video playback after deployment.
